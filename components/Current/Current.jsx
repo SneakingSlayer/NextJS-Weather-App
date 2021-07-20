@@ -57,23 +57,23 @@ export default function Current({currentData}) {
     const icons = [
         {
           name: "01d",
-          icon: <WiMoonFull size={80}/>
+          icon: <WiMoonFull  viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "02d",
-          icon: <WiDayCloudy size={80}/>
+          icon: <WiDayCloudy viewBox="-1 -4 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "03d",
-          icon: <WiCloud size={80}/>
+          icon: <WiCloud viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "04d",
-          icon: <WiCloudy  size={80}/>
+          icon: <WiCloudy viewBox="0 0 30 30" size={80} preserveAspectRatio="none"  size={80}/>
         },
         {
           name: "09d",
-          icon: <WiShowers size={80}/>
+          icon: <WiShowers viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "10d",
@@ -81,35 +81,35 @@ export default function Current({currentData}) {
         },
         {
           name: "11d",
-          icon: <WiNightSnowThunderstorm size={80}/>
+          icon: <WiNightSnowThunderstorm viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "13d",
-          icon: <WiSnowflakeCold size={80}/>
+          icon: <WiSnowflakeCold viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
           name: "50d",
-          icon: <WiWindy size={80}/>
+          icon: <WiWindy  viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
         },
         {
             name: "01n",
-            icon: <WiMoonFull size={80}/>
+            icon: <WiMoonFull  viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "02n",
-            icon: <WiDayCloudy size={80}/>
+            icon: <WiDayCloudy viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "03n",
-            icon: <WiCloud size={80}/>
+            icon: <WiCloud viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "04n",
-            icon: <WiCloudy  size={80}/>
+            icon: <WiCloudy viewBox="0 0 30 30" size={80} preserveAspectRatio="none"  size={80}/>
           },
           {
             name: "09n",
-            icon: <WiShowers size={80}/>
+            icon: <WiShowers  viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "10n",
@@ -117,15 +117,15 @@ export default function Current({currentData}) {
           },
           {
             name: "11n",
-            icon: <WiNightSnowThunderstorm size={80}/>
+            icon: <WiNightSnowThunderstorm viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "13n",
-            icon: <WiSnowflakeCold size={80}/>
+            icon: <WiSnowflakeCold viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           },
           {
             name: "50n",
-            icon: <WiWindy size={80}/>
+            icon: <WiWindy viewBox="0 0 30 30" size={80} preserveAspectRatio="none" size={80}/>
           }
         
       ]

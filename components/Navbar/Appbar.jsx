@@ -31,7 +31,10 @@ export default function Appbar(props) {
     return (
         <Navbar className={styles.app_bar}>
             <Navbar.Brand>
-                <h2 className={styles.brand_txt}>Today Weather</h2>
+                
+                
+                <a href='/'><h2 className={styles.brand_txt}>Today Weather</h2></a>
+               
             </Navbar.Brand>
             <ul className={styles.nav_list}>
                 <li className={styles.list_item}>
