@@ -1,0 +1,71 @@
+.app_bar{
+    position: sticky !important;
+    height: 80px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    
+}
+
+.nav_list{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.icon{
+    font-size: 22px;
+    color: #273042;
+}
+
+.search_box{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.appbar_btn{
+    border: none;
+    background-color: transparent;
+    padding: none !important;
+    
+
+}
+
+.appbar_btn:hover{
+    cursor: pointer;
+}
+
+.brand_txt{
+    color: #273042 !important;
+}
+
+
+
+.input{
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family:'Segoe UI';
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none;
+    border: 0px solid #ddd;
+    height: 35px;
+    padding-left: 0px;
+    width: 0px;
+}
+
+.active{
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family:'Segoe UI';
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 35px;
+    padding-left: 15px;
+    width: 200px;
+}
+
